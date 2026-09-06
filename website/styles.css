@@ -1,0 +1,51 @@
+
+* {
+    font-family: 'Lexend', sans-serif;
+}
+
+body {
+    background-image: url('media/city.png');
+    background-size: cover;
+    background-position: fit;
+    background-repeat: no-repeat;
+}
+
+.header {
+    position: top;
+    width: 98%;
+    height: 100px;
+    background-color: #fec725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:#ac8100;
+    border-width: 5px;
+    border-style: solid;
+}
+
+#pfpImg {
+    position: relative;
+    right: 85.4vh;
+    width: 75px;
+    height: 75px;
+    border-width: 2px;
+    border-height: 2px;
+    border-style: solid;
+    border-color: #000;
+}
+
+#yeTable {
+    height: 500px;
+    width: 500px;
+}
+
+#inProgress {
+    position: absolute;
+    font-size: 70px;
+    right: 990px;
+    color: #000000;
+}
+
+#introTxt {
+    background-color: #fffb27;
+}
