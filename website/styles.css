@@ -29,11 +29,11 @@ body::before {
     justify-content: left;
 }
 
-#bodyContents {
-    padding-left: 5vw;
-    padding-top: 5vh;
+#bodyContents1 {
+    padding-left: 25vw;
+    padding-top: 12vh;
     padding-bottom: 5vh;
-    padding-right: 10vw;
+    padding-right: 25vw;
 }
 
 #ghcImg {
@@ -55,19 +55,70 @@ body::before {
     padding-top: 4vh;
     margin: 0 auto;
     justify-content: center;
+    gap: 2vh;
 }
 
 #headerContents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#headerLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2vh;
+    border:#ac8100;
+    background-color: #fec725;
+    border-width: 0.5vh;
+    border-style: solid;
+    border-radius: 10px;
+    width: 25.5vh;
+    height: 10vh;
+}
+
+#headerRight {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2vh;
+    border:#ac8100;
+    background-color: #fec725;
+    border-width: 0.5vh;
+    border-style: solid;
+    border-radius: 10px;
+    width: 25.5vh;
+    height: 10vh;
+}
+
+#headerCenter {
+    display: flex;
     background-color: #fec725;
     border:#ac8100;
     border-width: 0.5vh;
     border-style: solid;
-    border-radius: 10px;
-    display: flex;
+    border-radius: 10px; 
+    width: 45vh;
+    height: 10vh;
+    font-size: 2vh;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    font-size: 2vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+}
+
+#githubImg {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 100%;
+}
+
+#musicImg {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 100%;
 }
 
 #pfpImg {
