@@ -1,0 +1,198 @@
+
+* {
+    font-family: 'Lexend', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffac27;
+    background-image: url('media/city.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% calc(12vh + 5vh + 100% - 10vh); 
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+#bodyContents2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #ffac27;
+    padding: 3vh;
+    gap: 10vh;
+}
+
+#bodyContents2Left {
+    margin-top: 10vh;
+    width: 25vw;
+}
+
+#bodyContents2Left p {
+    margin-left: 3vh;
+    margin-top: -2vh;
+}
+
+.gridLinks {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2vh;
+    margin:10vh;
+    padding-bottom: 1vh;
+}
+
+.gridLinks img {
+    transition: transform 0.25s ease-in-out; 
+    border-radius: 10px;
+    height: 20vh;
+    width: 20vh;
+}
+
+.gridLinks img:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+#spanEmphasis {
+    color: red;
+    font-weight: bold;
+}
+
+#bodyContents1 {
+    position: relative;
+    margin-left: 25vw;
+    padding-top: 12vh;
+    padding-bottom: 5vh;
+    margin-right: 25vw;
+    gap: 2vh;
+    width: 50vw;
+}
+
+#ghcImg {
+    float: left;
+    left: 0;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-bottom: 0.75vh;
+    width: 25vh;
+    height: 25vh;
+    border-width: 0.2vh;
+    border-style: solid;
+    border-color: #000;
+}
+
+#introTxt {
+    font-size: 2.5vh;
+    background-color: #fffb27;
+}
+
+#introTxt2 {
+    font-size: 2.5vh;
+    background-color: #ffac27;
+}
+
+#introTxt1 {
+    font-size: 5.5vh;
+    background-color: #fffb27;
+    font-style: italic;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    height: 10vh;
+    padding-top: 4vh;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 2vh;
+}
+
+#headerContents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#headerLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2vh;
+    border:#ac8100;
+    background-color: #fec725;
+    border-width: 0.5vh;
+    border-style: solid;
+    border-radius: 10px;
+    width: 25.5vh;
+    height: 10vh;
+}
+
+#headerRight {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2vh;
+    border:#ac8100;
+    background-color: #fec725;
+    border-width: 0.5vh;
+    border-style: solid;
+    border-radius: 10px;
+    width: 25.5vh;
+    height: 10vh;
+}
+
+#headerCenter {
+    display: flex;
+    background-color: #fec725;
+    border:#ac8100;
+    border-width: 0.5vh;
+    border-style: solid;
+    border-radius: 10px; 
+    width: 45vh;
+    height: 10vh;
+    font-size: 2vh;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4vh;
+    padding-right: 4vh;
+}
+
+#githubImg {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 100%;
+}
+
+#musicImg {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 100%;
+}
+
+#pfpImg {
+    position: relative;
+    left:auto;
+    margin-right: 1vh;
+    width: 8vh;
+    height: 8vh;
+    border-width: 0.2vh;
+    border-style: solid;
+    border-color: #000;
+}
