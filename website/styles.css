@@ -30,21 +30,30 @@ body::before {
 }
 
 #bodyContents1 {
-    padding-left: 25vw;
+    margin-left: 25vw;
     padding-top: 12vh;
     padding-bottom: 5vh;
-    padding-right: 25vw;
+    margin-right: 25vw;
+    gap: 2vh;
+    width: 50vw;
 }
 
 #ghcImg {
-    position: relative;
+    float: left;
     left: 0;
     margin-left: 1vh;
+    margin-right: 1vh;
+    margin-bottom: 0.75vh;
     width: 25vh;
     height: 25vh;
     border-width: 0.2vh;
     border-style: solid;
     border-color: #000;
+}
+
+#introTxt {
+    font-size: 2.5vh;
+    background-color: #fffb27;
 }
 
 .header {
@@ -130,9 +139,4 @@ body::before {
     border-width: 0.2vh;
     border-style: solid;
     border-color: #000;
-}
-
-#introTxt {
-    background-color: #fffb27;
-    width: fit-content;
 }
