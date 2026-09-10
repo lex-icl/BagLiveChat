@@ -2,6 +2,16 @@
 * {
     font-family: 'Lexend', sans-serif;
     box-sizing: border-box;
+    scrollbar-color:#ffac27 #fffb27;
+}
+
+html {
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+html::-webkit-scrollbar {
+    display: none; 
 }
 
 body {
@@ -73,7 +83,9 @@ body::before {
 
 #bodyContents2Left {
     margin-top: 10vh;
-    width: 25vw;
+    height: 70vh;
+    width: 40vw;
+    overflow-y: scroll;
 }
 
 #bodyContents2Left p {
@@ -178,8 +190,29 @@ body::before {
     height: 10vh;
 }
 
-#headerRight {
+#flexBtnMusic {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#musicBtn {
+    display: flex;
+    margin-right: 2.5vh;
+    margin-top: 2vh;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    border:#ac5600;
+    background-color: #fe9525;
+    border-width: 0.5vh;
+    border-style: solid;
+    border-radius: 100% ;
+    width: 10vh;
+    height: 10vh;
+}
+
+#headerRight {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -230,4 +263,9 @@ body::before {
     border-width: 0.2vh;
     border-style: solid;
     border-color: #000;
+}
+
+#headerCenter h1 {
+    color: inherit;
+    text-decoration: none;
 }

@@ -1,0 +1,128 @@
+* {
+    font-family: 'Lexend', sans-serif;
+    scrollbar-width: none;
+}
+
+body {
+    background-color: #fec725;
+}
+
+#musicImg {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 100%;
+}
+
+#musicBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.894vh;
+    cursor: pointer;
+    position: fixed;
+    margin-right: 1.35vh;
+    border:#c66300;
+    border-width: 0.5vh;
+    border-style: solid;
+    border-radius: 100% ;
+    width: 9vh;
+    height: 9vh;
+    background-color: #fe9525;
+}
+
+.bodyContents1 {
+    display: flex;
+    background-color: #ffac27;
+    margin: -1.12vh;
+    padding: -1.15v;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 10vh;
+}
+
+.bodyContents1 p {
+    position: relative;
+    background-color: #fec725;
+}
+
+.bodyContents2 {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 7vh;
+    margin:10vh;
+    padding-bottom: 1vh;
+    justify-content: center;
+}
+
+#proj1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fe9525;
+    padding-left: 7vh;
+    padding-right: 7vh;
+    padding-bottom: 8vh;
+    border-radius: 10px;
+}
+
+#projDesc {
+    background-color: #ffac27;
+    margin-bottom: 6vh;
+}
+
+#projTitle {
+    margin-top: 14vh;
+    background-color: #ffac27;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.bodyContents2 img {
+    border-radius: 10px;
+    height: 20vh; 
+    width: 20vh;
+}
+
+.bodyContents2 div {
+    transition: transform 0.25s ease-in-out; 
+    height: 50vh;
+}
+
+.bodyContents2 div:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+
+#backBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vh;
+    cursor: pointer;
+    position: fixed;
+    margin-left: 0.93vh;
+    border:#c66300;
+    border-width: 0.5vh;
+    border-style: solid;
+    border-radius: 100% ;
+    width: 9vh;
+    height: 9vh;
+    background-color: #fe9525;
+}
+
+#flexBtnMusic {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#backBtn img {
+    width: 7vh;
+    height: 7vh;
+    border-radius: 100%;
+}
