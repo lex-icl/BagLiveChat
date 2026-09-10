@@ -3,6 +3,11 @@
     scrollbar-width: none;
 }
 
+#spanEmphasis {
+    color: red;
+    font-weight: bold;
+}
+
 body {
     background-color: #fec725;
 }
@@ -11,6 +16,23 @@ body {
     display: inline;
     background-color: #ffac27;
     font-weight: bold;
+    height: fit-content;
+    margin-left: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-right: 10vh;
+}
+
+#titleTxt {
+    font-size: 8vh;
+    margin: 4vh;
+}
+
+#paragraph {
+    display: inline;
+    background-color: #ffac27;     
+    padding: 2px 6px;     
+    line-height: 1.5;
 }
 
 .bodyContents2 {
@@ -22,10 +44,10 @@ body {
     flex-direction: row;
 }
 
-#block1 h1 {
-    margin-left: 20vh;
-    margin-top: 10vh;
-    font-size: 8vh;
+#block1 img {
+    height: 7vh;
+    width: 7vh;
+    border-radius: 10px;
 }
 
 #musicImg {
