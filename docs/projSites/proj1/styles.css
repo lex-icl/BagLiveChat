@@ -21,11 +21,14 @@ body {
     margin-top: 5vh;
     margin-bottom: 5vh;
     margin-right: 10vh;
+    align-items: center;
+    justify-content: center;
 }
 
 #titleTxt {
     font-size: 8vh;
     margin: 4vh;
+    margin-bottom: -3vh;
 }
 
 #paragraph {
@@ -36,18 +39,60 @@ body {
 }
 
 .bodyContents2 {
+    display: flex;
     margin-top: 4vh;
+    flex-direction: column;
+}
+
+#block2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 65vh;
+    width: 140vh;
+    background-color: #fe9525;
+    border-radius: 10px;
+    padding-top: 6vh;
+    padding-bottom: 8vh;
+    align-self: center;
+    margin-top: 8vh;
+}
+
+#block3 {
+    margin-top: 3;
+}
+
+#block2 p {
+    font-size: 7vh;
+    margin-bottom: 5vh;
+    margin-top: 1vh; 
+    background-color: #ffac27;   
+}
+
+#block2 img {
+    height: 25vw;
+    width: 35vw;
+    border-radius: 10px;
 }
 
 #block1 {
+    margin-top: 7vh;
     display: flex;
     flex-direction: row;
 }
 
-#block1 img {
-    height: 7vh;
-    width: 7vh;
-    border-radius: 10px;
+#body1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 7vh;
+    margin-top: 5vh;
+}
+
+#title img {
+    height: 55vh;
+    width: 55vh;
+    padding: 4vh;
 }
 
 #musicImg {
