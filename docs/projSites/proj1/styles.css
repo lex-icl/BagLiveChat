@@ -23,6 +23,7 @@ body {
     margin-right: 10vh;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 
 #titleTxt {
@@ -60,13 +61,95 @@ body {
 }
 
 #block3 {
-    margin-top: 3;
+    margin-top: 9vh;
+    display: flex;
+    flex-direction: row;
 }
 
-#block2 p {
+#block3 img {
+    height: 30vh;
+    width: 30vh;
+    margin: 1vh;
+}
+
+#block4 {
+    margin-top: 10vh;
+    margin-bottom: 6vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#block4Body1 {
+    margin: 9vh;
+    margin-right: 14vh;
+}
+
+#block5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 14vh;
+    margin-bottom: 19vh;
+    margin-right: 12vh;
+}
+
+#smolTitleTxt {
+    font-size: 5vh;
+    margin: 4vh;
+    margin-bottom: -3vh;
+}
+
+#block5 p {
+    height: fit-content;
+}
+
+#smolTitle img {
+    height: 35vh;
+    width: 35vh;
+    padding: 4vh;
+}
+
+#smolTitle {
+    display: inline;
+    background-color: #ffac27;
+    font-weight: bold;
+    height: fit-content;
+    margin-left: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-right: 10vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#block6 {
+    margin-bottom: 13vh;
+    margin-top: -10vh;
+}
+
+#block6 p {
+    max-height: fit-content;
+}
+
+#block6txt {
+    margin: 10vh;
+}
+
+#block2Body1 {
+    display: flex;
+    flex-direction: row;
+    gap: 4vh;
+}
+
+#block2Body1 img {
+    margin-top: 3vh;
+}
+
+#block2Txt {
     font-size: 7vh;
     margin-bottom: 5vh;
-    margin-top: 1vh; 
+    margin-top: 5vh; 
     background-color: #ffac27;   
 }
 
@@ -169,4 +252,11 @@ body {
     width: 7vh;
     height: 7vh;
     border-radius: 100%;
+}
+
+.end {
+    display: flex;
+    margin-top: 200vh;
+    align-self: center;
+    margin-bottom: 27vh;
 }
